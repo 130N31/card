@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #090b1a;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 83vw;
+  border-radius: 15px;
+  background: #1b1938;
+}
+
+.img_container {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: #aa5bdb;
+}
+
+.img_desktop,
+.img_mobile {
+  mix-blend-mode: multiply;
+}
+
+.img_desktop {
+  display: none;
+}
+.img_mobile {
+  display: block;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px 30px;
+}
+
+.header,
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+}
+
+.header span {
+  color: #aa5bdb;
+}
+
+.paragraph_container,
+.statistic p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: #ffffffbf;
+}
+
+.paragraph_container {
+  text-align: center;
+  font-size: 1.15rem;
+  line-height: 15px;
+}
+
+.statistic {
+  text-align: center;
+}
+
+.statistic h3 {
+  margin-top: 25px;
+  margin-bottom: 6px;
+}
+
+.attribution {
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.attribution a {
+  line-height: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #aa5bdb;
+}
